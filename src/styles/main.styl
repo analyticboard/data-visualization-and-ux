@@ -131,11 +131,11 @@ pre[class*="language-"]
   color: #00FF51
 
 cascade(index)
-  .5s + (index * .3s)
+  .1s + (index * .1s)
 
 .cascade
   & > *
-    transition: all .8s ease
+    transition: all .1s ease
     transform: translateZ(0)
     opacity: 1
     .bespoke-active &,
@@ -283,11 +283,42 @@ ganesh
   // &--ganesh
   //   background-image: url('../images/ganesh.jpg')
 
-  &--roadmap
+  &--que-es-visualizacion
     background-color: #ccc
-    background-image: url('../images/testimg.png')
-    background-size: 110%
+    background-image: url('../images/que-es-visualizacion.png')
+    background-size: 100%
     background-repeat: no-repeat
+    transform: none
+  &--que-es-ux
+    background-color: #ccc
+    background-image: url('../images/que-es-ux.png')
+    background-size: 100%
+    background-repeat: no-repeat
+    transform: none
+  &--mal-diseno
+    background-color: #ccc
+    background-image: url('../images/mal-diseno-mal-ux.png')
+    background-size: 100%
+    background-repeat: no-repeat
+    transform: none
+  &--cuantos-tres
+    background-color: #ccc
+    background-image: url('../images/cuantos-tres.png')
+    background-size: 100%
+    background-repeat: no-repeat
+    transform: none
+  &--cuantos-ochos
+    background-color: #ccc
+    background-image: url('../images/cuantos-ochos.png')
+    background-size: 100%
+    background-repeat: no-repeat
+    transform: none
+  &--cuantos-cuatros
+    background-color: #ccc
+    background-image: url('../images/cuantos-cuatros-cincos.png')
+    background-size: 100%
+    background-repeat: no-repeat
+    transform: none
   &--technology-managements
     background-image: url('../images/technology-management.png')
     background-size: 50%
